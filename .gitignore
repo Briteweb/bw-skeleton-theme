@@ -1,0 +1,110 @@
+######################
+# Compiled files
+######################
+# Buld tools will compile to dist. These files will be built
+# during deployment so they don't need to be in git.
+# /dist
+/dist/bundles
+/bin
+
+# temporary folder used by grunt/gulp
+/tmp
+
+# Less compiler
+*.less.css
+*.less.cache
+*.css.map
+
+# other compiled formats
+*.com
+*.class
+*.dll
+*.exe
+*.o
+*.so
+
+
+
+######################
+# Packages
+######################
+# it's better to unpack these files and commit the raw source
+# git has its own built in compression methods
+*.7z
+*.dmg
+*.gz
+*.iso
+*.jar
+*.rar
+*.tar
+*.zip
+
+
+######################
+# Logs and databases
+######################
+# We don't want any DB or Log file to be mistakenly included in git
+*.log
+*.sql
+*.sqlite
+
+
+######################
+# OS generated files
+######################
+.DS_Store*
+ehthumbs.db
+# Icon?
+Thumbs.db
+
+
+######################
+# Other files
+######################
+.svn
+*~
+.*.swp
+.tmproj
+
+
+######################
+# Packaging Systems
+######################
+# Composer (php)
+/vendor
+
+# Bundler (ruby)
+/bundle
+
+# Bower (JS & CSS)
+/bower_components
+
+# NPM (NodeJS)
+/node_modules
+
+
+######################
+# WordPress
+######################
+# WordPress Core, themes and plugins are loaded via Composer
+# MU-Plugins are included in git because they are project specific.
+/wp
+/wp-content/plugins
+/wp-content/themes
+
+# WordPress upload and blog.dir folders are shared between repos
+/wp-content/uploads
+/wp-content/blogs.dir
+
+# WordPress config file is shared between repos
+/wp-config.php
+
+# WP CLI local configurations
+/wp-cli.yml
+
+# Apache configs are shared between repos
+/.htaccess
+
+# Search & Replace, only used development
+/searchreplacedb2.php
+/srdb

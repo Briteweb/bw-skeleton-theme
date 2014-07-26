@@ -1,0 +1,31 @@
+{
+  "name": "briteweb/bw-skeleton-theme",
+  "version": "1.0.0",
+  "description": "bw-skeleton-theme",
+  "authors": [
+    {
+      "name": "#BRITEWEB",
+      "email": "support@briteweb.com",
+      "homepage": "http://briteweb.com"
+    }
+  ],
+  "autoload" : {
+    "psr-0" : {
+      "BWSkeletonTheme" : "src/php"
+    }
+  },
+
+  "type": "wordpress-theme",
+
+  "repositories": [
+    {
+        "type":"composer",
+        "url":"http://wpackagist.org"
+    }
+  ],
+  "require": {
+    "php": ">=5.3",
+    "composer/installers": "~1.0",
+
+  }
+}

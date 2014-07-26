@@ -1,0 +1,67 @@
+{
+  "name": "bw-skeleton-plugin",
+  "version": "1.0.0",
+  "authors": [
+    "#BRITEWEB <support@briteweb.com>",
+    "Alessandro Biavati <abiavati@gmail.com>",
+    "Ynah Pantig <ynah@pantigmedia.com>"
+  ],
+  "main": [
+    "src/scripts/public/main.coffee",
+    "src/styles/main.scss"
+  ],
+  "keywords": [
+    "bw-skeleton-plugin"
+  ],
+  "license": "BSD",
+  "homepage": "https://github.com/briteweb/bw-skeleton-plugin.git",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "vendor",
+    "tmp",
+    "tests"
+  ],
+  "dependencies": {},
+  "devDependencies": {
+    "slick-carousel": "~1.3.6",
+    "ScrollMagic": "~1.0.8",
+    "greensock": "~1.12.1",
+    "requirejs": "~2.1.6",
+    "handlebars.js": "~1.0.12",
+    "jquery": "~1.11.1",
+    "backbone": "~1.0.0",
+    "backbone.marionette": "~1.0.4",
+    "underscore": "~1.4.4",
+    "modernizr": "~2.6.2",
+    "hammerjs": "~1.0.5",
+    "jquery.easie.js": "~1.0.2",
+    "jquery.scrollTo": "~1.4.5",
+    "jquery.ui": "~1.10.3",
+    "infinite-scroll": "*",
+    "jquery-icheck": "~1.0.1",
+    "coffee-script": "~1.6.3",
+    "mustache": "~0.7.2",
+    "fancybox": "~2.1",
+    "backbone.paginator": "~0.8.1",
+    "backbone.routeFilter": "*",
+    "backbone-query-parameters": "*",
+    "jquery.lazyload": "~1.9.0",
+    "fastclick": "~0.6.10",
+    "underscore.string": "~2.3.3",
+    "backbone.localStorage": "~1.1.7",
+    "selectize": "~0.8.2",
+    "sifter": "~0.3.0",
+    "microplugin": "~0.0.3",
+    "jquery-form": "~3.45.0",
+    "jquery.cookie": "~1.4.0",
+    "jquery-migrate": "~1.2.1",
+    "json3": "~3.3.2",
+    "jquery-backstretch": "~2.0.4",
+    "jquery.transit": "~0.9.11",
+    "jquery.backgroundcover": "~0.0.4",
+    "jquery.unevent.js": "https://github.com/yckart/jquery.unevent.js.git#~0.0.2"
+  }
+}
